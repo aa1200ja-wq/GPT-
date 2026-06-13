@@ -4,9 +4,10 @@
 
 - 唯一允許操作的儲存庫：`aa1200ja-wq/GPT-`
 - 禁止存取、修改或提交至：`aa1200ja-wq/online_rollcall`
-- 預設分支：`main`
-- 不得直接修改 `main`
-- 每次任務必須使用獨立分支，完成後建立 Pull Request
+- Codex Cloud 任務以介面選定的基準分支為來源，目前預設為 `main`
+- 不得直接推送或合併至 `main`
+- Codex Cloud 必須使用平台提供的工作分支，不得自行執行 `git fetch origin/main`、建立分支或切換分支
+- 任務完成後先保留平台產生的變更並停止；Pull Request 由 Codex Cloud 介面建立
 
 ## 二、開始任務前
 
